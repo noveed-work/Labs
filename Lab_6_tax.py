@@ -5,8 +5,11 @@ salary = int(input("Please enter your salary: "))
 salary = getIncomeTax()
 
 if salary <= 34500:
-    print((salary * 20) / 100)
+    tax = ((salary * 20) / 100)
+    print(f"The tax that you will pay is £{tax}")
 elif salary <= 150000:
-    print((salary * 45) / 100)
+    tax = ((salary * 40) / 100)
+    print(f"The tax that you will pay is £{tax}")
 elif salary > 150000:
-    print((salary * 45) / 100)
+    tax = ((salary * 45) / 100)
+    print(f"The tax that you will pay is £{tax}")
