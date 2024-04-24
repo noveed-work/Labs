@@ -1,7 +1,11 @@
 def getIncomeTax(pa=11850):
     return salary - pa
 
+<<<<<<< HEAD
 salary = int(input("Please enter your salary: £"))
+=======
+salary = int(input("Please enter your salary: £ "))
+>>>>>>> b6fe08b030f126d4fa7931fbd31d8e92ed836116
 salary = getIncomeTax()
 
 if salary <= 34500:
