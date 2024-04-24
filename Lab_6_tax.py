@@ -1,7 +1,6 @@
-def getIncomeTax():
+def getIncomeTax(pa=11850):
     return salary - pa
 
-pa = 11850
 salary = int(input("Please enter your salary: "))
 salary = getIncomeTax()
 
