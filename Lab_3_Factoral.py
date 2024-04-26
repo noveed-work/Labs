@@ -17,6 +17,12 @@ while i <= number:
     factorial *= i
     i += 1
 
-print("The factorial of", number, "is:", factorial)
+print(f"The factorial of {number}, is:, {factorial}")
 
 # Used stackover flow to help me with this one
+
+writing = ("This is a new file") # general string
+data = open("data.doc", "w") # creates a new file
+data = open("data.doc", "a") # opens the file to amend
+data.write(writing) # data to add to file
+data.close() # close
